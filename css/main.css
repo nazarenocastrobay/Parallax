@@ -75,18 +75,20 @@ body{
 	border-radius: 50%;
 	margin: 3em auto;
 }
-@media (max-width: 500px){
+
+/*media Queries*/
+@media (max-width: 350px){
 	.helado{
 	
 	display: none;
 
 	}
 	.logo{
-	max-width: 300px;
+	max-width: 90%;
 	position: absolute;
 	top: 50%;
 	margin-top: -100px;
-	left: 100px;
+	left: 7%;
 	}
 	.contenido{
 	text-align: center;
@@ -97,9 +99,79 @@ body{
 
 	}
 	.milkshake{
-		max-width: 90%;
-		height: 400px;
-		width: 400px;
+		max-width: 100%;
+		height: 325px;
+		width: 500px;
+		background-position: center top;
+		border-radius: 0;
+		margin: 2em 0;
+
+	}
+	.contenido h1{
+	font-family: 'Outbox';
+	font-size: 2em;
+	border-bottom: solid 5px #fffa4d;
+	padding-bottom: .5em;
+	color: #1e0503;
+	}
+}
+@media (min-width: 351px) and (max-width: 400px){
+	.helado{
+	
+	display: none;
+
+	}
+	.logo{
+	max-width: 300px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 100%;
+		height: 325px;
+		width: 500px;
+		background-position: center top;
+		border-radius: 0;
+		margin: 0;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+	.helado{
+	display: none;
+	}
+	.logo{
+	max-width: 300px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 70px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 100%;
+		height: 325px;
+		width: 100%;
+		background-position: center top;
+		border-radius: 0;
+		margin: 0;
 	}
 }
 
@@ -118,7 +190,7 @@ body{
 	}
 	.contenido{
 	text-align: center;
-	height: 1000px;
+	height: 1150px;
 	padding-top: 4em;
 	width: 95%;
 	margin: 0 auto;
@@ -154,9 +226,9 @@ body{
 	}
 	.contenido{
 	text-align: center;
-	height: 1000px;
+	height: 1150px;
 	padding-top: 4em;
-	width: 95%;
+	width: 60%;
 	margin: 0 auto;
 
 	}
@@ -164,5 +236,7 @@ body{
 		max-width: 90%;
 		height: 400px;
 		width: 400px;
+		background-position: center bottom;
+		border-radius: 5%;
 	}
 }
