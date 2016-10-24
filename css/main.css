@@ -65,14 +65,14 @@ body{
 	display: inline-block;
 }
 .milkshake{
-	height: 500px;
-	width: 500px;
+	height: 550px;
+	width: 550px;
 	max-width: 100%;
 	background-image: url('../img/chocolate.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	border-radius: 50%;
+	border-radius: 5%;
 	margin: 3em auto;
 }
 
@@ -143,6 +143,7 @@ body{
 		background-position: center top;
 		border-radius: 0;
 		margin: 0;
+		background-attachment: scroll;
 	}
 }
 
@@ -172,6 +173,7 @@ body{
 		background-position: center top;
 		border-radius: 0;
 		margin: 0;
+		background-attachment: scroll;
 	}
 }
 
@@ -200,6 +202,7 @@ body{
 		max-width: 90%;
 		height: 400px;
 		width: 400px;
+		background-attachment: scroll;
 	}
 }
 
@@ -236,7 +239,8 @@ body{
 		max-width: 90%;
 		height: 400px;
 		width: 400px;
-		background-position: center bottom;
+		background-position: center top;
 		border-radius: 5%;
+		background-attachment: scroll;
 	}
 }
