@@ -1,0 +1,242 @@
+@font-face {
+	font-family: 'Outbox';
+	src: url('../fonts/The Outbox St.ttf');
+}
+body{
+	background-color: #fff;
+}
+.contenido{
+	text-align: center;
+	height: 1000px;
+	padding-top: 6em;
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+.portada{
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/fondo-madera.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	overflow: hidden;
+
+}
+
+.logo{
+	max-width: 450px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 345px;
+}
+.helado{
+	width: 800px;
+	height: 598px;
+	background-image: url('../img/helado.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 400px;
+
+	}
+
+.contenido h1{
+	font-family: 'Outbox';
+	font-size: 3em;
+	border-bottom: solid 5px #fffa4d;
+	padding-bottom: .5em;
+	color: #1e0503;
+}
+.contenido h2{
+	font-family: 'Open Sans Condensed';
+	color: #BDC3C7;
+	font-size: 1.2em;
+	
+}
+#copy{
+	font-size: .5em;
+	margin-bottom: -30px;
+	display: inline-block;
+}
+.milkshake{
+	height: 500px;
+	width: 500px;
+	max-width: 100%;
+	background-image: url('../img/chocolate.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 3em auto;
+}
+
+/*media Queries*/
+@media (max-width: 350px){
+	.helado{
+	
+	display: none;
+
+	}
+	.logo{
+	max-width: 90%;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 7%;
+	}
+	.contenido{
+	text-align: center;
+	height: 1000px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 100%;
+		height: 325px;
+		width: 500px;
+		background-position: center top;
+		border-radius: 0;
+		margin: 2em 0;
+
+	}
+	.contenido h1{
+	font-family: 'Outbox';
+	font-size: 2em;
+	border-bottom: solid 5px #fffa4d;
+	padding-bottom: .5em;
+	color: #1e0503;
+	}
+}
+@media (min-width: 351px) and (max-width: 400px){
+	.helado{
+	
+	display: none;
+
+	}
+	.logo{
+	max-width: 300px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 100%;
+		height: 325px;
+		width: 500px;
+		background-position: center top;
+		border-radius: 0;
+		margin: 0;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+	.helado{
+	display: none;
+	}
+	.logo{
+	max-width: 300px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 70px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 100%;
+		height: 325px;
+		width: 100%;
+		background-position: center top;
+		border-radius: 0;
+		margin: 0;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 600px){
+	.helado{
+	
+	display: none;
+
+	}
+	.logo{
+	max-width: 350px;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	left: 115px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 95%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 90%;
+		height: 400px;
+		width: 400px;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+	.helado{
+	width: 300px;
+    height: 598px;
+    background-image: url(../img/helado.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 300px 458px;
+    position: absolute;
+    right: 50%;
+    margin-left: 30px;
+    top: 400px;
+
+	}
+	.logo{
+	max-width: 400px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 115px;
+	}
+	.contenido{
+	text-align: center;
+	height: 1150px;
+	padding-top: 4em;
+	width: 60%;
+	margin: 0 auto;
+
+	}
+	.milkshake{
+		max-width: 90%;
+		height: 400px;
+		width: 400px;
+		background-position: center bottom;
+		border-radius: 5%;
+	}
+}
